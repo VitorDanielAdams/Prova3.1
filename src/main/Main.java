@@ -26,7 +26,7 @@ public class Main {
 
         System.out.println("Sua lista:");
         for (int i = 0;i < tamanho;i++){
-            System.out.println(listaNumeros.get(i));
+
             media += Float.valueOf(listaNumeros.get(i));
 
             if(i == 0){
